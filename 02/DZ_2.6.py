@@ -1,0 +1,6 @@
+your_number = input("Введіть будь-яке 4х значне число:" )
+y_u = int(your_number)
+print(y_u // 1000)
+print(y_u // 100 % 10)
+print(y_u // 10 % 10)
+print(y_u % 10)
